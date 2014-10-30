@@ -38,9 +38,6 @@ curl -v -X POST -d "<html><head><style type="text/css">.test{ color: red; }</sty
 
 **Response**
 ````
-* upload completely sent off: 114 out of 114 bytes
-* additional stuff not fine transfer.c:1037: 0 0
-* HTTP 1.1 or later with persistent connection, pipelining supported
 < HTTP/1.1 200 OK
 < Content-Type: application/json
 < Content-Length: 184
