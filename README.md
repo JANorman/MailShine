@@ -18,7 +18,7 @@ docker build -t janorman/mailshine .
 
 #####Run the container
 ````
-docker run -P 45000:80 -d janorman/mailshine
+docker run -p 45000:4567 -d janorman/mailshine
 ````
 
 Congratulations, the application should now be running! Read the usage instructions for details on calling the APIs.
