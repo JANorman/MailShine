@@ -24,7 +24,7 @@ docker run -p 45000:4567 -d janorman/mailshine
 Congratulations, the application should now be running! Read the usage instructions for details on calling the APIs.
 
 ##Usage
-MailShine is still in development, and currently exposes the current endpoints
+MailShine currently exposes the following endpoints
 
 #### POST /mail
 If you make a POST request to the _/mail_ endpoint, the application will return you a JSON body, which contains the result of inlining the CSS in the body. 
